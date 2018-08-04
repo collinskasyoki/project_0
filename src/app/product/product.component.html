@@ -1,0 +1,19 @@
+<div id="product-display">
+  <div id="product" *ngIf="product else elseBlock">
+    <div id="one-image">
+      <img src="#" alt="{{ product.name }} image">
+    </div>
+    <br />
+    <div id="section-side">
+      <div id="name">Name: {{ product.name }}</div>
+      <div id="description">Description: {{ product.description }}</div>
+      <div id="stock">Stock: {{ product.stock }}</div>
+      <div id="price">Price: KShs {{ product.price }}</div>
+      <div id="category">Category: {{ product.category.name }}</div>
+      <div id="user">Posted By: {{ product.user.name }}</div>
+    </div>
+  </div>
+  <ng-template #elseBlock>
+    <div id="category-display">{{ error }}</div>
+  </ng-template>
+</div>

@@ -1,0 +1,16 @@
+<h2>{{ category?.name }}</h2>
+<div id="product-display">
+  <div id="product-main" *ngFor="let product of category?.products">
+    <div id="img">
+      <img src="#">
+    </div>
+    <div id="name"><a routerLink="/products/{{ product.id }}">{{ product.name }}</a></div>
+    <div id="price">Price: {{ product.price }}</div>
+    <div id="stock">Stock: {{ product.stock }}</div>
+  </div>
+  <div *ngIf="error">
+    <div id="category-display">
+      {{ error }}
+    </div>
+  </div>
+</div>

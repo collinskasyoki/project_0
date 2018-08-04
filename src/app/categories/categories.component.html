@@ -1,0 +1,10 @@
+<h2 class="title">Categories</h2>
+<div id="category-display">
+  <a class="btn" (click)="goToCategory(category)" *ngFor="let category of categories">
+    {{ category.name }}
+  </a>
+
+  <div *ngIf="error">
+    {{ error }}
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<h3 class="title">Products</h3>
+<div *ngIf="products else elseBlock">
+
+  <div id="product-main" *ngFor="let product of products">
+    <div id="img">
+      <img src="#" alt="{{ product.name }}">
+    </div>
+    <div id="name">
+      <a class="btn" (click)="goToProduct(product)">{{ product.name }}</a>
+    </div>
+    <div id="price">Price: {{ product.price }}</div>
+    <div id="stock"> Stock: {{ product.stock }}</div>
+  </div>
+</div>
+<ng-template #elseBlock>
+  <div id="category-display">
+    {{ error }}
+  </div>
+</ng-template>

@@ -1,0 +1,165 @@
+body {
+ padding-left: 2%;
+    padding-right: 2%;
+    color: #948b8b;
+    background:url(../images/bg.jpg) ;
+}
+#container {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#header {
+    text-align: center;
+}
+#adverts img {
+    height: 235px;
+    width: 100%;
+    border-radius: 5px;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+body a {
+    color: dodgerblue;
+}
+ body a:hover {
+    color: deeppink;
+	text-decoration:none;
+}
+
+#navigation a {
+	width: 100px;
+}
+#welcome-note {
+     margin-bottom: 20px;
+     padding: 1%;
+     border-radius: 5px;
+     background-color: whitesmoke;
+}
+#categories, #designers, #adverts {
+    margin-bottom: 20px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+#fashion-head img {
+	width: 100%;
+	border-radius: 10px;
+}
+#fashion-head {
+	margin-bottom: 20px;
+}
+
+#fashion-images {
+    margin: 0 15px 15px 0;
+	
+} 
+#category-display {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 1%;
+	margin-bottom: 20px;
+}
+#category-display a {
+	color: dodgerblue;
+   background:url(../images/bg.jpg) ;
+    width: 250px;
+    color: black;
+    margin: 3px 3px 3px 3px;
+}
+#product {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0 15px 15px 0;
+    padding: 2%;
+}
+
+#product-main {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 0 15px 15px 0;
+    padding: 2%;
+}
+
+#product img{
+width: 100%;
+height: 500px;
+}
+#edit-product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+#img img{
+	width: 100%;
+	height: 200px;
+}
+ 
+#footer {
+    padding: 1%;
+    clear: both;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+ #fashion-images span{
+	background-color
+		display: inline-block;
+		width: 200px;
+}
+
+@media(min-width: 768px) {
+    #container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #content {
+        width: 100%;
+    }
+    #section {
+        float: left;
+        width: 69%; 
+    }
+	#product-main {
+		display: inline-block;
+	}
+	
+	#category-display a {
+		width: 285px;
+		color: dodgerblue;
+		font-size: 20px;
+}
+    #fashion-images {
+		text-align: center;
+        width: 100%;
+        display: inline-block;
+        margin: 0 15px 15px 0;
+    }
+    #edit-product {
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }  
+    #aside {
+        float: right;
+        width: 30%;
+    }
+	#img img{
+	width: 145px;
+	height: 150px;
+}
+    #footer li {
+        width: 150px;
+        display: inline-block;
+    }
+}
+.title {
+    color: #face55;
+    text-align: center;
+}
+.head {
+    border-radius: 20px;
+    margin: 3%;
+    background-color: #face55;
+    text-align: center;
+}
