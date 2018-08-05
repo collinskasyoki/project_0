@@ -10,8 +10,8 @@ export interface Product {
   description: string;
   stock: number;
   price: number;
-  user_id: string;
-  category_id: string;
+  userId: string;
+  categoryId: string;
   image: string;
 }
 
