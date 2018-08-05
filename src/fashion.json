@@ -1,0 +1,219 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Category 1",
+      "description": "Description 1"
+    },
+    {
+      "id": "2",
+      "name": "Category 2",
+      "description": "Description 2"
+    },
+    {
+      "id": "3",
+      "name": "Category 3",
+      "description": "Description 3"
+    },
+    {
+      "id": "4",
+      "name": "Category 4",
+      "description": "Description 4"
+    },
+    {
+      "name": "Shoes",
+      "description": "Clothes wore on feet",
+      "id": "5"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "description": "Description 1",
+      "stock": "10",
+      "price": "200",
+      "userId": "1",
+      "categoryId": "1",
+      "image": "image1"
+    },
+    {
+      "id": "2",
+      "name": "Product Zee",
+      "description": "Description 2",
+      "stock": "15",
+      "price": "400",
+      "userId": "1",
+      "categoryId": "3",
+      "image": "image2"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "description": "Description 3",
+      "stock": "75",
+      "price": "100",
+      "userId": "1",
+      "categoryId": "2",
+      "image": "image3"
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "description": "Description 4",
+      "stock": "45",
+      "price": "430",
+      "userId": "4",
+      "categoryId": "4",
+      "image": "image4"
+    },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "description": "Description 5",
+      "stock": "65",
+      "price": "880",
+      "userId": "2",
+      "categoryId": "1",
+      "image": "image5"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "description": "Description 6",
+      "stock": "3",
+      "price": "1000",
+      "userId": "2",
+      "categoryId": "5",
+      "image": "image6"
+    },
+    {
+      "id": "7",
+      "name": "Product 7",
+      "description": "Description 7",
+      "stock": "99",
+      "price": "2000",
+      "userId": "4",
+      "categoryId": "2",
+      "image": "image7"
+    },
+    {
+      "id": "8",
+      "name": "Product 8",
+      "description": "Description 8",
+      "stock": "1",
+      "price": "70",
+      "userId": "4",
+      "categoryId": "4",
+      "image": "image8"
+    },
+    {
+      "id": "9",
+      "name": "Product 9",
+      "description": "Description 9",
+      "stock": "34",
+      "price": "240",
+      "userId": "2",
+      "categoryId": "3",
+      "image": "image9"
+    },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "description": "Description 10",
+      "stock": "15",
+      "price": "100",
+      "userId": "1",
+      "categoryId": "5",
+      "image": "image10"
+    },
+    {
+      "id": "KMp~IxO",
+      "name": "Timbaland",
+      "description": "A monstrous shoe",
+      "stock": "500",
+      "price": "5000",
+      "userId": "U1UwFRk",
+      "categoryId": "5",
+      "image": ""
+    },
+    {
+      "name": "Loafer",
+      "description": "A funny shoe",
+      "stock": "10",
+      "price": "400",
+      "categoryId": "5",
+      "image": "",
+      "userId": "U1UwFRk",
+      "id": "iVx~0iu"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Name 1",
+      "username": "user0",
+      "isadmin": "0",
+      "email": "user0@gmail.com",
+      "contact": "700100102",
+      "location": "",
+      "image": "image0",
+      "active": "1"
+    },
+    {
+      "id": "2",
+      "name": "Name 2",
+      "username": "user1",
+      "isadmin": "0",
+      "email": "user1@gmail.com",
+      "contact": "700100102",
+      "location": "",
+      "image": "image1",
+      "active": "1"
+    },
+    {
+      "id": "3",
+      "name": "Name 3",
+      "username": "user2",
+      "isadmin": "1",
+      "email": "user2@gmail.com",
+      "contact": "700100103",
+      "location": "",
+      "image": "image2",
+      "active": "1"
+    },
+    {
+      "id": "4",
+      "name": "Name 4",
+      "username": "user3",
+      "isadmin": "0",
+      "email": "user3@gmail.com",
+      "contact": "700100104",
+      "location": "",
+      "image": "image3",
+      "active": "1"
+    },
+    {
+      "id": "5",
+      "name": "Name 5",
+      "username": "user4",
+      "isadmin": "1",
+      "email": "user4@gmail.com",
+      "contact": "700100105",
+      "location": "",
+      "image": "image4",
+      "active": "1"
+    },
+    {
+      "name": "Collins Kay",
+      "username": "collinskay",
+      "isadmin": "0",
+      "email": "collinskay@localhost.com",
+      "contact": "700100100",
+      "location": "",
+      "image": "",
+      "active": "1",
+      "id": "U1UwFRk"
+    }
+  ]
+}

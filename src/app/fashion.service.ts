@@ -10,9 +10,20 @@ import { catchError, retry } from 'rxjs/operators';
 })
 export class FashionService {
 
+  // fashion_url = 'http://localhost:8888/api/';
   fashion_url = 'http://localhost:8888/api/';
+  json_service = false;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    // Comment or delete this block of code when using slim api
+    this.json_service = true;
+
+    if (this.json_service) {
+      this.fashion_url = 'http://localhost:3000/';
+    } else {
+      this.fashion_url = 'http://localhost:8888/api/';
+    }
+  }
 
   // Categories
   getCategories (limit: number = 0, page: number = 0): Observable<Category[]> {
@@ -33,7 +44,15 @@ export class FashionService {
   }
 
   getCategoryProducts (categoryId): Observable<CategoryProduct> {
-    return this.http.get<CategoryProduct> (this.fashion_url + 'categories/' + categoryId + '/products')
+    let the_url = '';
+    if (this.json_service) {
+     the_url = this.fashion_url + 'categories/' + categoryId + '?_embed=products';
+
+    } else {
+     the_url = this.fashion_url + 'categories/' + categoryId + '/products';
+    }
+
+    return this.http.get<CategoryProduct> (the_url)
       .pipe(
         catchError(this.errorHandler)
         );
